@@ -1,0 +1,8 @@
+---
+
+- name: install pg client
+  apt:
+    name:
+      - postgresql-client-12
+      - libpq-dev
+    update_cache: true

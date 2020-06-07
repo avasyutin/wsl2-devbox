@@ -1,0 +1,22 @@
+---
+
+- name: install packages
+  apt:
+    name:
+      - git
+      - curl
+      - wget
+      - libssl-dev
+      - libreadline-dev
+      - zlib1g-dev
+      - autoconf
+      - bison
+      - build-essential
+      - libyaml-dev
+      - libreadline-dev
+      - libncurses5-dev
+      - libffi-dev
+      - libgdbm-dev
+      - vim-gui-common
+      - xclip
+    update_cache: true

@@ -1,0 +1,4 @@
+---
+
+user: "{{ lookup('env', 'USER') }}"
+ubuntu_release: "{{ lookup('pipe', 'lsb_release -cs') }}"
