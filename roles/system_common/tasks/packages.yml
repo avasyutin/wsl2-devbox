@@ -3,20 +3,23 @@
 - name: install packages
   apt:
     name:
-      - git
-      - curl
-      - wget
-      - libssl-dev
-      - libreadline-dev
-      - zlib1g-dev
       - autoconf
       - bison
       - build-essential
-      - libyaml-dev
-      - libreadline-dev
-      - libncurses5-dev
+      - curl
+      - git
       - libffi-dev
       - libgdbm-dev
+      - libncurses5-dev
+      - libreadline-dev
+      - libreadline-dev
+      - libssl-dev
+      - libyaml-dev
+      - python3
+      - python3-pip
+      - python3-tmuxp
       - vim-gui-common
+      - wget
       - xclip
+      - zlib1g-dev
     update_cache: true

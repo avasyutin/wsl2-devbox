@@ -1,7 +1,10 @@
 ---
 
-- include_tasks: packages.yml
+- include: packages.yml
   tags: packages
 
-- include_tasks: pg.yml
+- include: pg.yml
   tags: pg
+
+- include: redis.yml
+  tags: redis

@@ -1,0 +1,7 @@
+---
+
+- name: install redis client
+  apt:
+    name:
+      - redis-tools
+    update_cache: true
