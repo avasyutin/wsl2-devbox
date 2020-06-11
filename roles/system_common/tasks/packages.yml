@@ -8,6 +8,7 @@
       - build-essential
       - curl
       - git
+      - imagemagick
       - libffi-dev
       - libgdbm-dev
       - libncurses5-dev
