@@ -6,10 +6,16 @@
       - autoconf
       - bison
       - build-essential
+      - cowsay
       - curl
       - ffmpeg
+      - fortune-mod
+      - fzf
       - git
+      - htop
+      - iftop
       - imagemagick
+      - iotop
       - libcurl4
       - libcurl4-openssl-dev
       - libffi-dev
@@ -19,13 +25,19 @@
       - libreadline-dev
       - libssl-dev
       - libyaml-dev
+      - p7zip
       - python2
       - python3
       - python3-pip
       - python3-tmuxp
+      - ripgrep
       - silversearcher-ag
+      - strace
+      - tmux
       - vim-gui-common
       - wget
       - xclip
+      - xclip
       - zlib1g-dev
+      - zsh
     update_cache: true

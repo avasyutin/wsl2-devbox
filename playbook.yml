@@ -5,7 +5,7 @@
     ansible_python_interpreter: /usr/bin/env python3
   become: true
   roles:
-    - system_common
+    - { name: system_common, tags: system }
 
 - hosts: all
   vars:

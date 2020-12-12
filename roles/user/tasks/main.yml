@@ -2,3 +2,6 @@
 
 - include: node.yml
   tags: node
+
+- include: rbenv.yml
+  tags: ruby

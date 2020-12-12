@@ -2,3 +2,12 @@
 
 user: "{{ lookup('env', 'USER') }}"
 ubuntu_release: "{{ lookup('pipe', 'lsb_release -cs') }}"
+
+ruby_version: 2.7.2
+rbenv_root: '/home/{{ user }}/.rbenv'
+global_gems:
+  - bundler
+  - rails
+  - ripper-tags
+  - rb-readline
+  - colorize
