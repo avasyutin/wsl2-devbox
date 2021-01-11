@@ -25,7 +25,7 @@
       - libreadline-dev
       - libssl-dev
       - libyaml-dev
-      - p7zip
+      - p7zip-full
       - python2
       - python3
       - python3-pip
