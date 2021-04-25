@@ -40,4 +40,5 @@
       - xclip
       - zlib1g-dev
       - zsh
+      - zip
     update_cache: true
