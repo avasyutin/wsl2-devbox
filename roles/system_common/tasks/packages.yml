@@ -25,7 +25,9 @@
       - libreadline-dev
       - libssl-dev
       - libyaml-dev
+      - libzmq3-dev
       - p7zip-full
+      - pkg-config
       - python2
       - python3
       - python3-pip
