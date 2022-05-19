@@ -1,8 +1,13 @@
 ---
 
+- name: install repo
+  copy:
+    dest: /etc/apt/sources.list.d/pgdg.list
+    content: deb http://apt.postgresql.org/pub/repos/apt focal-pgdg main
+
 - name: install pg client
   apt:
     name:
-      - postgresql-client-12
+      - postgresql-client-14
       - libpq-dev
     update_cache: true
